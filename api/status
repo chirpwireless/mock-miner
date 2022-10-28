@@ -1,0 +1,31 @@
+{
+   "nodeid":"4f3cc9ff-8ec9-4d03-bd41-f3123ad2be9c",
+   "model":"mm-2band-v1",
+   "wifi":{
+      "state":"down",
+      "mac":"9C:65:F9:43:3B:76",
+      "networks":[
+         "MGTS_DEGU",
+         "RT-WiFi-21",
+         "TP-Link_33BD_EXT",
+         "netis_186778"
+      ],
+      "SSID":"none",
+      "proto":"none",
+      "ip":"none",
+      "mask":"none",
+      "gw":"none",
+      "dns":"none"
+   },
+   "lan":{
+      "state":"up",
+      "mac":"f3:12:3a:d2:be:9c",
+      "proto":"dhcp",
+      "ip":"10.10.0.28",
+      "mask":"255.255.255.0",
+      "gw":"10.10.0.254",
+      "dns":[
+         "172.31.0.2"
+      ]
+   }
+}
