@@ -52,4 +52,8 @@ There could be more fields, but let's concentrate on several you need.
 - encode this identification string into `hex`, e.g. `31206d6d2d3262616e642d763120394336354639343333353941` - this is the activation "key"
 - make request to our server backend's "activate" endpoint, e.g. `GET {server-address}/api/nodes/activate/{key}
 
+Use the substitute test host mentioned above and get the status here
+[https://chirpwireless.github.io/mock-miner/api/status](https://chirpwireless.github.io/mock-miner/api/status)
+it has corresponding node in the database, unassigned to any user. If you assign it and want to delete it from user, you'll find `DELETE /nodes/{id}` endpoint for this in server's swagger.
+
 **To be continued**
